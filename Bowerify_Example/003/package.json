@@ -1,0 +1,30 @@
+{
+    "name": "example_browserify_shim_jquery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+        "jquery": "^3.0.0"
+    },
+    "devDependencies": {
+        "browserify-shim": "^3.8.12"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "browser": {
+        "myModule2": "./myModule2.js"
+    },
+    "browserify": {
+        "transform": [ "browserify-shim" ]
+    },
+    "browserify-shim": {
+      "jquery": "$",
+      "myModule2": {
+        "exports": "myMath2",
+        "depends": [ "jquery:$" ]
+      }
+    }
+}
