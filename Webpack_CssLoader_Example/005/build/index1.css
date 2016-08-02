@@ -1,0 +1,25 @@
+body {
+  background-image:url(bg-6962c63d27c6950535630abc053f11a7.jpg);
+}
+div {
+  color:white;
+  line-height:100px;
+  text-align:center;
+  font-size: 30px;
+  max-width:100px;
+}
+#result1 {
+  width: 100;
+  height: 100;
+  background-image:url(div-bg1-7e36ed4c55bc20c399e9a0bbf1532957.jpg);
+}
+#result1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FFFF00;
+}
+#result3 {
+  width: 100;
+  height: 100;
+  background-image:url(div-bg3-2251bfbd022ed849f7275378c438d285.jpg);
+}

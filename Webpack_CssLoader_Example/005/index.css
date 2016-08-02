@@ -1,0 +1,10 @@
+body {
+  background-image:url(bg.jpg);
+}
+div {
+  color:white;
+  line-height:100px;
+  text-align:center;
+  font-size: 30px;
+  max-width:100px;
+}
