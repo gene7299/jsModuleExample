@@ -1,0 +1,25 @@
+{
+  "name": "webpack_cssloader_example01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base ./appsrc/",
+    "deploy": "NODE_ENV=production webpack -p",
+    "watch": "webpack --progress --colors --watch",
+    "build": "webpack --display-modules --color --display-error-details"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
